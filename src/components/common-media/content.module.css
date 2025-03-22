@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+  @apply flex flex-wrap gap-x-1 gap-y-1 sm:gap-y-2 sm:gap-x-1 md:gap-y-5 md:gap-x-5 xl:gap-y-10 xl:gap-x-6 2xl:gap-x-7  mt-10 ml-4
+}
+
+.headings {
+  @apply mb-3 mt-5 font-semibold text-2xl text-white;
+}
+
+.sub_headings {
+  @apply mb-3 mt-5 font-bold text-xl text-white;
+}
+
+.bookmark {
+  @apply top-2 right-2 absolute bg-black bg-opacity-75 p-2.5 rounded-full cursor-pointer;
+}

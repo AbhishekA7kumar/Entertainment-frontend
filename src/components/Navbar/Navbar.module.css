@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbarLinkItem {
+    @apply group-hover:text-userHover group-focus:text-userHoverColor  text-userTextColor
+}
+
+
